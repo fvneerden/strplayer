@@ -1,0 +1,1 @@
+Simple HTML5 player based on HLS.js using <video> element.
