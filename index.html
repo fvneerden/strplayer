@@ -4,6 +4,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <audio id="audio" controls autoplay loop preload="auto"></audio>
+    <source src="https://stream.studiorhedenlive.nl/hls/str/str.m3u8" type="application/x-mpegURL" />
     <script>
       if(Hls.isSupported()) {
         var audio = document.getElementById('audio');
