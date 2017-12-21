@@ -10,7 +10,7 @@
       if(Hls.isSupported()) {
         var audio = document.getElementById('audio');
         var hls = new Hls();
-        //hls.loadSource('https://stream.studiorhedenlive.nl/hls/str/str.m3u8');
+        hls.loadSource('https://stream.studiorhedenlive.nl/hls/str/str.m3u8');
         hls.attachMedia(audio);
         hls.on(Hls.Events.MANIFEST_PARSED,function() {
           audio.play();
