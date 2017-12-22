@@ -1,1 +1,1 @@
-Simple HTML5 player based on HLS.js using video element.
+Simple HTML5 player based on HLS.js using video/audio element.
