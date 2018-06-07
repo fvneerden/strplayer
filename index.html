@@ -13,6 +13,7 @@
   </audio>
   <script>
     var queryString = window.location.search;
+    //var queryString = trimmed.substr(1);
   
 
     if (queryString == null && Hls.isSupported()) {
@@ -37,7 +38,7 @@
   </script>
   <br>
   <script>
-  document.write(queryString);
+  document.write(queryString.substr(1));
   </script>
 </body>
 </html>
