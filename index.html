@@ -12,7 +12,8 @@
     <source src="https://stream.studiorhedenlive.nl/hls/str/str.m3u8" type="application/x-mpegURL" />
   </audio>
   <script>
-    var x = location.search.window;
+    var urlParams = new URLSearchParams(window.location.search);
+
     
 
     if (Hls.isSupported()) {
@@ -24,7 +25,7 @@
         audio.play();
       });
     }
-    document.write(x);
+    document.write.urlParams();
   </script>
 </body>
 </html>
