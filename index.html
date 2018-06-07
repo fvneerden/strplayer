@@ -24,7 +24,7 @@
         audio.play();
       });
     }
-    else (Hls.isSupported()){
+    else if (Hls.isSupported()){
       var audio = document.getElementById('audio');
       var hls = new Hls();   
       hls.loadSource(queryString);
